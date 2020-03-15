@@ -2,6 +2,10 @@ class Waiter
   
   attr_accessor :name, :years_experince
   
-  def 
+  @@all = []
+  
+  def self.all 
+    @@all 
+  end 
 
 end
